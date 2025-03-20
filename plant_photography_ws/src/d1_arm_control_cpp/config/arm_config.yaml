@@ -1,0 +1,16 @@
+/**:
+  ros__parameters:
+    # Arm parameters
+    device_path: "/dev/ttyUSB0"
+    baud_rate: 115200
+    velocity: 0.5  # 50% of maximum speed
+    
+    # Preset positions (these are just examples, should be calibrated)
+    # Format: [x, y, z, roll, pitch, yaw] in meters and radians
+    preset_positions:
+      home: [0.0, 0.0, 0.3, 0.0, 0.0, 0.0]
+      front: [0.3, 0.0, 0.4, 0.0, 0.0, 0.0]
+      top: [0.0, 0.0, 0.6, 0.0, 1.57, 0.0]
+      right_side: [0.0, -0.3, 0.4, 0.0, 0.0, 1.57]
+      back: [-0.3, 0.0, 0.4, 0.0, 0.0, 3.14]
+      left_side: [0.0, 0.3, 0.4, 0.0, 0.0, -1.57]
