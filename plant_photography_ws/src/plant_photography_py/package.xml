@@ -19,6 +19,9 @@
   <depend>cv_bridge</depend>
   <depend>python3-opencv</depend>
 
+  <depend>zed_ros2_wrapper</depend>
+  <depend>zed_components</depend>
+
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
 
