@@ -32,6 +32,12 @@ def generate_launch_description():
             os.path.join(cpp_pkg_dir, 'launch', 'arm_node.launch.py')
         )
     )
+
+    zed_launch = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(
+            os.path.join(cpp_pkg_dir, 'launch', 'arm_node.launch.py')
+        )
+    )
     
     # Launch Arguments
     device_path = LaunchConfiguration('device_path')
@@ -56,4 +62,5 @@ def generate_launch_description():
         # Launch files
         python_launch,
         arm_launch,
+        zed_launch,
     ])
