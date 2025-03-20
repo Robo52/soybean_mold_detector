@@ -1,0 +1,7 @@
+/**:
+  ros__parameters:
+    # Navigation parameters
+    approach_distance: 0.7  # Distance to maintain from plant (meters)
+    angle_tolerance: 0.1    # Alignment tolerance (radians)
+    position_tolerance: 0.1 # Position tolerance (meters)
+    scan_angular_speed: 0.3 # Angular speed for scanning (rad/s)
