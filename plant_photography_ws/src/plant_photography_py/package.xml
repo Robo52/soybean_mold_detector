@@ -4,7 +4,7 @@
   <name>plant_photography_py</name>
   <version>0.0.1</version>
   <description>Python nodes for plant photography robot</description>
-  <maintainer email="user@example.com">user</maintainer>
+  <maintainer email="johnamiller056@gmail.com">JohnMiller</maintainer>
   <license>Apache License 2.0</license>
 
   <buildtool_depend>ament_python</buildtool_depend>
