@@ -1,0 +1,6 @@
+/**:
+  ros__parameters:
+    # HSV color range for green plants
+    lower_green: [35, 50, 50]  # H, S, V values
+    upper_green: [85, 255, 255]
+    min_contour_area: 1000
